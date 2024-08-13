@@ -11,6 +11,7 @@
   ];
   # Sets environment variables in the workspace
   env = {};
+  idx.internal.android-emulator.enable = true;
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
