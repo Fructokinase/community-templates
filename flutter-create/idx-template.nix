@@ -5,7 +5,6 @@
         pkgs.xz
         pkgs.git
         pkgs.busybox
-        pkgs.flutter
     ];
     bootstrap = ''
         flutter create "$out" --template="${template}" --platforms="${platforms}" ${if sample == "none" then "" else "--sample=${sample}"} ${if blank then "-e" else ""}
